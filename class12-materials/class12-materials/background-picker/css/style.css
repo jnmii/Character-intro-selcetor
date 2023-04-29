@@ -1,0 +1,97 @@
+/******************************************
+/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+h1, h2{
+  text-align: center;
+}
+.container {
+  width: auto;
+  height: auto;
+  position: static;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+}
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  };
+
+  img {
+    width: 5px;
+    height: 5px;
+    margin: 100px;
+    border: 2px solid black;
+  };
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+ 
+		body {
+			background-image: url('');
+			background-size: cover;
+			background-position: center;
+			background-blur: 10px;
+		}
+		h1 {
+			text-align: center;
+			font-family: 'Press Start 2P', cursive;
+			color: white;
+			margin-top: 50px;
+		}
+		.container {
+			margin-top: 20px;
+			text-align: center;
+			padding-bottom: 20px;
+		}
+		.row {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		.img-thumbnail {
+			width: 200px;
+			height: 200px;
+			margin: 10px;
+			cursor: pointer;
+			transition: transform 0.2s ease-in-out;
+		}
+		.img-thumbnail:hover {
+			transform: scale(1.1);
+		}
+		#player {
+			position: relative;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+	
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+#purple{
+  background: rgba(241,63,247,1);
+}
+#green{
+  background: rgba(0,253,81,1);
+}
+#blue{
+  background: rgba(0,254,255);
+}
+#red{
+  background: rgb(201, 19, 19);
+}
